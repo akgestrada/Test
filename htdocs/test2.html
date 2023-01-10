@@ -1,0 +1,109 @@
+<html lang="en">
+
+    <head>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="animate.min.css">
+    <body>
+        <section class="banner">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">  
+                    <i class="fa fa-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./choose.html">CHOOSE</a></li>
+                        <li><a href="#">COMPARE</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active slide-one">
+                        <div class="container">
+                            <div class="row">
+                                <div class="ca-item-container">
+                                    <h1 class="animated fadeInLeft delay-1s">Build A Mobile App</h1>
+                                    <p class="animated lightSpeedIn delay-2s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat in ex ut sodales. Cras quis mauris congue, aliquam augue ut, ornare arcu. Cras quis mauris congue, aliquam augue ut, ornare arcu. Cras quis mauris congue, aliquam augue ut, ornare arcu.</p>
+                                    <a class="animated jackInTheBox delay-5s">Read More</a>
+                                </div>
+                                <div class=""><img src="./images/IPhone 14 Pro.png" class="carousel-img animated fadeInRight delay-1s"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item slide-two">
+                        <div class="container">
+                            <div class="row">
+                                <div class="">
+                                    <h1 class="animated fadeInLeft delay-1s">Build A Mobile App</h1>
+                                    <p class="animated lightSpeedIn delay-2s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat in ex ut sodales. Cras quis mauris congue, aliquam augue ut, ornare arcu. Cras quis mauris congue, aliquam augue ut, ornare arcu. Cras quis mauris congue, aliquam augue ut, ornare arcu.</p>
+                                    <a class="animated jackInTheBox delay-5s">Read More</a>
+                                </div>
+                                <div class="ca-item-container">
+                                    <div class="img-box"><img src="./images/IPhone 14 Pro.png" class="carousel-img animated fadeInRight delay-1s"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--buttons-->
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>  
+
+
+        <script>
+            $('.carousel').carousel({
+            interval: 7000
+            })
+        </script>
+
+        
+        <div class="shadow-container">
+            <div class="main main-left">
+                <div class="shadow">
+                    <div class="shadow-logo"><img src="apple.png"></div>
+                    <img src="./images/IPhone 14 Pro.png" class="shadow-img">
+                </div>
+                <div class="shadowOne"><h4>Iphone 14 Pro Max</h4></div>
+                <div class="shadowTwo"><p>Php. 40,000</p></div>
+            </div>
+
+            <div class="main main-center">
+                <div class="shadow">
+                    <div class="shadow-logo"><img src="apple.png"></div>
+                    <img src="./images/IPhone 14 Pro.png" class="shadow-img">
+                </div>
+                <div class="shadowOne"></div>
+                <div class="shadowTwo"></div>
+            </div>
+
+            <div class="main main-right">
+                <div class="shadow">
+                    <div class="shadow-logo"><img src="apple.png"></div>
+                    <img src="./images/IPhone 14 Pro.png" class="shadow-img">
+                </div>
+                    <div class="shadowOne"></div>
+                    <div class="shadowTwo"></div>
+            </div>
+        </div>
+
+        <div style="height: 200vh"></div>
+    </body>
+</html>

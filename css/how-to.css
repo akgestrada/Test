@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/header.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1{
+    font-weight: 600;
+    font-size: 200%;
+    box-sizing: border-box;
+    margin-top: 12vh;
+}
+
+.sub-header p{
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.howto {
+    margin: -5% auto 0 auto;
+    background-color: #fff3f3;
+    height: 20%;
+    width: 80%;
+    border-radius: 15px;
+}
+
+/*----------------navigation----------------*/
+nav{
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 135px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul{
+    display: inline;
+    float: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+nav .fa{
+    display: none;
+}
+
+/*----------------banner text----------------*/
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+
+.text-box p{
+    margin: 20px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+}
+
+
+/*----------------steps----------------*/
+
+.step{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.step h2{
+    font-size: 36px;
+    color: #f44336;
+}
+.step p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+.step-container{
+    margin: 0 auto 0 auto;
+}
+
+.step-box{
+    background: #fff3f3;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+    margin: 1% auto 0 auto;
+}
+
+.step-box h3{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    padding-left: 5%;
+}
+
+.step-box p{
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.step-box h4{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    padding-left: 10%;
+}
+
+p.morepara{
+    text-align: justify;
+    padding-left: 10%;
+    margin-top: 0;
+}
+
+.step-box:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.step a {
+    color: #f44336;
+    text-decoration: none;
+}
