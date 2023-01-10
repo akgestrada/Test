@@ -1,2 +1,2 @@
 # Test
-github settings from cs
+proj beta
